@@ -6,7 +6,7 @@ import os
 # Constants
 LOAD_THRESHOLD = 10      # CPU load (%) to activate/deactivate cores
 IRQ_THRESHOLD = 100000   # IRQ threshold to activate cores
-IPC_THRESHOLD = 0.7      # IPC threshold to activate cores
+IPC_THRESHOLD = 0.9      # IPC threshold to activate cores
 MIN_ACTIVE_CORES = 1     # Minimum cores to keep active
 MAX_CORES = psutil.cpu_count(logical=True)
 
